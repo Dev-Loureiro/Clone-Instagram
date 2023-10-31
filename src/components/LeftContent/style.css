@@ -1,0 +1,88 @@
+.LeftContent {
+    background-color: #fff;
+    /* width: 334px; */
+    
+    width: 17.5vw;
+    height: 100vh;
+    border-right: 1px solid var(--border);
+    padding: 8px 12px 20px 12px;
+}
+
+.Menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+MenuItem text {
+    padding-left: 16px;
+}
+
+ 
+.LeftContent li {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    margin: 4px 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+}
+
+.Profile {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.espacamentoNavMenu {
+    padding-left: 16px;
+}
+
+.MenuLogo {
+    padding: 25px 12px 16px 12px;
+    margin-bottom: 19px;
+}
+
+.MenuLogo img {
+    width: 103px;
+    cursor: pointer;
+}
+
+.LeftContent .more {
+    list-style: none;
+}
+
+.Menu { 
+    width: 220px;
+    height: 755px;
+}
+
+@media (max-width: 1266px) {
+
+
+    .MenuLogo {
+        
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url('../../assets/icons8-instagram-24.png');
+        background-size: cover;
+    }
+
+    .LeftContent {
+        width: 72px;
+    }
+    .espacamentoNavMenu {
+        display: none;
+    }
+
+  }

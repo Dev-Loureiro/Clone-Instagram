@@ -3,39 +3,49 @@ import { GoHomeFill } from 'react-icons/go';
 import { FiSearch } from 'react-icons/fi';
 import { TiCompass } from 'react-icons/ti';
 import { ImFilm } from 'react-icons/im';
-import { PiChatCircleDotsLight } from 'react-icons/pi';
+import { RiMessengerLine } from 'react-icons/ri'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { FiPlusSquare } from 'react-icons/fi'
 import { LuUserCircle2 } from 'react-icons/lu'
 import { BsList } from 'react-icons/bs'
 
 
-
+import "./style.css";
+import "../../style/global.css"
+import { IconContext } from "react-icons";
 
 
 
 export default function LeftContent() {
     return (
         <div className="LeftContent">
-            <div className="Alinhamento">
-                <div className="Menu">
-                    <div className="MenuLogo"> <img src="src\assets\Instagram_logo.png" alt="INSTRAGAM LOGO" /></div>
-                    <ul>
+
+            <div className="MenuLogo" id="logo"> <img src="src\assets\Instagram_logo.png" alt="INSTRAGAM LOGO" /></div>
+            
+            <div className="Menu">
+                <ul>
+                    <IconContext.Provider value={{ size: "26px" }}>
                         <MenuItem icon={<GoHomeFill />} text="Home" />
                         <MenuItem icon={<FiSearch />} text="Search" />
                         <MenuItem icon={<TiCompass />} text="Explore" />
                         <MenuItem icon={<ImFilm />} text="Reels" />
-                        <MenuItem icon={<PiChatCircleDotsLight />} text="Messages" />
+                        <MenuItem icon={<RiMessengerLine />} text="Messages" />
                         <MenuItem icon={< AiOutlineHeart />} text="Notifications" />
                         <MenuItem icon={<FiPlusSquare />} text="Create" />
-                        <MenuItem icon={<LuUserCircle2 />} text="Profile" />
-                    </ul>
-                </div>
+                    </IconContext.Provider>
 
-                <div className="more">
-                    <MenuItem icon={<BsList />} text="More" />
-                </div>
+                    <MenuItem icon={<img className="Profile" src="../src/assets/WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />} text="Profile" />
+
+
+                </ul>
             </div>
+
+            <div className="more">
+                <IconContext.Provider value={{ size: "26px" }}>
+                    <MenuItem icon={<BsList />} text="More" />
+                </IconContext.Provider>
+            </div>
+
 
         </div>
 

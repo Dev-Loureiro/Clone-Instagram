@@ -1,7 +1,9 @@
-import './App.css'
-import CenterContent from './components/CenterContent'
-import RightContent from './components/RightContent'
-import LeftContent from './components/LeftContent'
+import './style/global.css'
+import CenterContent from './components/CenterContent/CenterContent'
+import LeftContent from './components/LeftContent/LeftContent'
+import RightContent from './components/RightContent/RightContent'
+
+
 
 function App() {
 
