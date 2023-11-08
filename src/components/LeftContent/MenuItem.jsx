@@ -8,9 +8,7 @@ export default function MenuItem(props) {
             </div>
 
             <span className="espacamentoNavMenu"> {props.text}</span>
-            
-           
-           
+        
         </li>
     )
 }
