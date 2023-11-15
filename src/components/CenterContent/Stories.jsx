@@ -7,7 +7,7 @@ export default function Stories() {
             <div className="itemStories">
 
                 <div className="borda">
-                    <img src="src\assets\WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />
+                    <img src="src\assets\jp_loureiro.png" alt="" />
                 </div>
 
                 <span>nome</span>
@@ -16,7 +16,7 @@ export default function Stories() {
             <div className="itemStories">
 
                 <div className="borda">
-                    <img src="src\assets\WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />
+                    <img src="src\assets\jp_loureiro.png" alt="" />
                 </div>
 
                 <span>nome</span>
@@ -25,7 +25,7 @@ export default function Stories() {
             <div className="itemStories">
 
                 <div className="borda">
-                    <img src="src\assets\WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />
+                    <img src="src\assets\jp_loureiro.png" alt="" />
                 </div>
 
                 <span>nome</span>
@@ -34,7 +34,7 @@ export default function Stories() {
             <div className="itemStories">
 
                 <div className="borda">
-                    <img src="src\assets\WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />
+                    <img src="src\assets\jp_loureiro.png" alt="" />
                 </div>
 
                 <span>nome</span>
@@ -43,7 +43,7 @@ export default function Stories() {
             <div className="itemStories">
 
                 <div className="borda">
-                    <img src="src\assets\WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />
+                    <img src="src\assets\jp_loureiro.png" alt="" />
                 </div>
 
                 <span>nome</span>
@@ -52,7 +52,7 @@ export default function Stories() {
             <div className="itemStories">
 
                 <div className="borda">
-                    <img src="src\assets\WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />
+                    <img src="src\assets\jp_loureiro.png" alt="" />
                 </div>
 
                 <span>nome</span>
@@ -61,7 +61,7 @@ export default function Stories() {
             <div className="itemStories">
 
                 <div className="borda">
-                    <img src="src\assets\WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />
+                    <img src="src\assets\jp_loureiro.png" alt="" />
                 </div>
 
                 <span>nome</span>
@@ -70,7 +70,7 @@ export default function Stories() {
             <div className="itemStories">
 
                 <div className="borda">
-                    <img src="src\assets\WhatsApp Image 2023-09-06 at 17.42.32.jpeg" alt="" />
+                    <img src="src\assets\jp_loureiro.png" alt="" />
                 </div>
 
                 <span>nome</span>
