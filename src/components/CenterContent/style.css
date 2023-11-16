@@ -83,3 +83,39 @@ header {
     width: 468px;
     margin: 0 auto;
 }
+
+.icones { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones svg {
+    width: 24px;
+    height: 24px;
+    
+}
+
+.icones-publi svg {
+    margin-right: 10px;
+}
+
+.section-comments {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 14px;
+}
+
+.divisao {
+    stroke: black;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
