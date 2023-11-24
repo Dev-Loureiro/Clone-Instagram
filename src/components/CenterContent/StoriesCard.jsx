@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function StoriesCard({img, nome}) {
     return (
@@ -14,4 +14,4 @@ function StoriesCard({img, nome}) {
     )
 }
 
-export default StoriesCard
+export default StoriesCard;

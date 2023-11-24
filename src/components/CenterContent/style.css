@@ -50,6 +50,7 @@ header {
     gap: 16px;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .borda {
@@ -117,6 +118,10 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5px
+}
+
+.section-comments p strong {
+    cursor: pointer;
 }
 
 .comment {
