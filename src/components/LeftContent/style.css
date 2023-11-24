@@ -1,11 +1,10 @@
+
 .LeftContent {
     background-color: #fff;
-    /* width: 334px; */
-    
-    width: 17.5vw;
-    height: 100vh;
+    width: 336px;
     border-right: 1px solid var(--border);
     padding: 8px 12px 20px 12px;
+    position: fixed;
 }
 
 .Menu ul {
@@ -65,7 +64,7 @@ MenuItem text {
     height: 755px;
 }
 
-@media (max-width: 1266px) {
+@media (max-width: 1350px) {
 
 
     .MenuLogo {
@@ -81,6 +80,7 @@ MenuItem text {
     .LeftContent {
         width: 72px;
     }
+    
     .espacamentoNavMenu {
         display: none;
     }

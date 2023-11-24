@@ -6,13 +6,9 @@ import './style.css'
 export default function CenterContent() {
     return (
         <div className="CenterContent">
-
-            <div className='boxContentCenter'>
+            
                 <Stories />
                 <Feed />
-                
-
-            </div>
 
         </div>
     )

@@ -12,10 +12,6 @@
         font-family: 'Poppins', sans-serif;
     }
 
-    main {
-        display: flex;
-    }
-
     :root {
         --background-main: #f6f6f6;
         --background: #fff;
@@ -26,6 +22,15 @@
         --border: #dbdbdb;
         --border-secondary: #efefef;
     }
+
+    
+    .borda-img {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+    
 
   
     /* @media usada para resposivdidade 
