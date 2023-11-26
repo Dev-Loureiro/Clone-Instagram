@@ -1,88 +1,90 @@
-
 .LeftContent {
-    background-color: #fff;
-    width: 336px;
-    border-right: 1px solid var(--border);
-    padding: 8px 12px 20px 12px;
-    position: fixed;
+  background-color: #fff;
+  width: 240px;
+  height: 100vh;
+  border-right: 1px solid var(--border);
+  padding: 8px 12px 20px 12px;
+  position: fixed;
 }
 
 .Menu ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-MenuItem text {
-    padding-left: 16px;
+.box-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85%;
 }
 
- 
+.Menu {
+  width: 220px;
+  height: 755px;
+}
+
 .LeftContent li {
-    font-size: 16px;
-    font-weight: 500;
-    padding: 12px;
-    margin: 4px 0px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px;
+  margin: 4px 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 
 .icone {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .Profile {
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
 }
 
 .espacamentoNavMenu {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .MenuLogo {
-    padding: 25px 12px 16px 12px;
-    margin-bottom: 19px;
+  padding: 25px 12px 16px 12px;
+  margin-bottom: 19px;
 }
 
 .MenuLogo img {
-    width: 103px;
-    cursor: pointer;
+  width: 103px;
+  cursor: pointer;
 }
 
 .LeftContent .more {
-    list-style: none;
-}
-
-.Menu { 
-    width: 220px;
-    height: 755px;
+  list-style: none;
 }
 
 @media (max-width: 1350px) {
-
-
-    .MenuLogo {
-        
-        content: "";
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        background-image: url('../../assets/icons8-instagram-24.png');
-        background-size: cover;
-    }
-
-    .LeftContent {
-        width: 72px;
-    }
-    
-    .espacamentoNavMenu {
-        display: none;
-    }
-
+  .MenuLogo {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/icons8-instagram-24.png");
+    background-size: cover;
   }
+
+  #logo img {
+    display: none;
+  }
+
+  .LeftContent {
+    width: 72px;
+  }
+
+  .espacamentoNavMenu {
+    display: none;
+  }
+}

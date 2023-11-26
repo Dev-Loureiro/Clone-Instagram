@@ -1,22 +1,21 @@
 main {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
 .leftContent-Ghost {
-    width: 336px;
+  width: 336px;
 }
 
 .mainContent {
-    display: flex;
-    margin: auto;
-    padding-top: 36px;
+  display: flex;
+  margin: auto;
+  padding-top: 36px;
 }
 
 @media (max-width: 1350px) {
-    
-    .leftContent-Ghost {
-        width: 72px;
-    }
-
+  .leftContent-Ghost {
+    width: 72px;
+  }
 }
