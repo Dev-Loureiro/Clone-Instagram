@@ -24,6 +24,38 @@ export default function Feed() {
         discriptionPost="mama"
         comments="7.873"
       />
+
+      <FeedPost
+        imgProfile={perfilAnitta}
+        post={postAnitta}
+        altImg="foto-anitta"
+        likes={"1.435.321"}
+        nameProfile="anitta"
+        discriptionPost="mama"
+        comments="7.873"
+      />
+
+      <FeedPost
+        imgProfile={perfilAnitta}
+        post={postAnitta}
+        altImg="foto-anitta"
+        likes={"1.435.321"}
+        nameProfile="anitta"
+        discriptionPost="mama"
+        comments="7.873"
+      />
+
+      <FeedPost
+        imgProfile={perfilAnitta}
+        post={postAnitta}
+        altImg="foto-anitta"
+        likes={"1.435.321"}
+        nameProfile="anitta"
+        discriptionPost="mama"
+        comments="7.873"
+      />
+
+
     </div>
   );
 }
