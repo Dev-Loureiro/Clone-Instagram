@@ -22,6 +22,10 @@
   text-align: center;
 }
 
+.itemStories img {
+  object-fit: cover;
+}
+
 .itemStories span {
   max-width: 74px;
   overflow: hidden;
@@ -41,10 +45,14 @@ header {
 .conteudo-header {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.conteudo-header span {
+  font-weight: 600;
 }
 
 .borda {
@@ -71,6 +79,7 @@ header {
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .post {
@@ -82,6 +91,7 @@ header {
   border-radius: 5px;
   margin-bottom: 10px;
   border-right: 1px solid var(--border);
+  object-fit: cover;
 }
 
 .feed {
@@ -112,10 +122,15 @@ header {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  font-size: 14px;
 }
 
 .section-comments p strong {
   cursor: pointer;
+}
+
+.section-comments p:nth-child(3) {
+  color: gray ;
 }
 
 .comment {

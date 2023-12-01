@@ -7,7 +7,7 @@ export default function SugestionCard({ srcImg, name, nickName }) {
       <div className="yourProfile">
         <div>
           <div>
-            <img className="borda-img" src={srcImg} alt="photoProfile" />
+            <img src={srcImg} alt="photoProfile" />
           </div>
 
           <div className="nameProfile">

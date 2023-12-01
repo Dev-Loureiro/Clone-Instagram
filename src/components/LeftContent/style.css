@@ -1,6 +1,6 @@
 .LeftContent {
   background-color: #fff;
-  width: 240px;
+  width: 338px;
   height: 100vh;
   border-right: 1px solid var(--border);
   padding: 8px 12px 20px 12px;
@@ -17,7 +17,7 @@
 .box-menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: 85%;
 }
 
@@ -33,9 +33,13 @@
   margin: 4px 0px;
   display: flex;
   align-items: center;
-  cursor: pointer;
   font-family: "Montserrat", sans-serif;
 }
+
+.LeftContent li svg, span{
+  cursor: pointer;
+}
+
 
 .icone {
   display: flex;
@@ -60,6 +64,10 @@
 .MenuLogo img {
   width: 103px;
   cursor: pointer;
+}
+
+.Menu img {
+  object-fit: cover;
 }
 
 .LeftContent .more {

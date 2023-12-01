@@ -6,7 +6,6 @@ import { ImFilm } from "react-icons/im";
 import { RiMessengerLine } from "react-icons/ri";
 import { AiOutlineHeart } from "react-icons/ai";
 import { FiPlusSquare } from "react-icons/fi";
-import { LuUserCircle2 } from "react-icons/lu";
 import { BsList } from "react-icons/bs";
 
 import "./style.css";

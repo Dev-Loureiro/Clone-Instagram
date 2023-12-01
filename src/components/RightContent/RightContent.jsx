@@ -55,6 +55,26 @@ function RightContent() {
             nickName='girlinred'
           />
 
+          <div className='direitos'>
+            <ul>
+              <li>About</li>
+              <li>Help</li>
+              <li>Press</li>
+              <li>API</li>
+              <li>Jobs</li>
+              <li>Privacy</li>
+              <li>Terms</li>
+              <li>Locations</li>
+              <li>Language</li>
+              <li>Meta Verified</li>
+            </ul>
+
+            <div>
+              <p>© 2023 INSTAGRAM FROM jp_loureiro</p>
+            </div>
+
+          </div>
+
         </div>
       </div>
     </div>
