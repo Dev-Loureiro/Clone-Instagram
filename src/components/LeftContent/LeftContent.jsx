@@ -42,7 +42,7 @@ export default function LeftContent() {
               icon={
                 <img
                   className="Profile"
-                  src="../../assets/jp_loureiro.png"
+                  src="src\assets\jp_loureiro.png"
                   alt=""
                 />
               }
