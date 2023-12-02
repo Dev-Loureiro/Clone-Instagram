@@ -43,7 +43,7 @@ export default function LeftContent() {
                 <img
                   className="Profile"
                   src="src\assets\jp_loureiro.png"
-                  alt=""
+                  alt="profile-img"
                 />
               }
               text="Profile"

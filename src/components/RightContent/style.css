@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.RightContent img {
+  cursor: pointer;
+}
+
 .yourProfile {
   display: flex;
   justify-content: space-between;
