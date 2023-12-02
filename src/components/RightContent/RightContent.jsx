@@ -2,9 +2,9 @@
 import SugestionCard from './SugestionCard';
 import ImgJpProfile from '../../assets/jp_loureiro.png'
 
-import ImgTrizProfile from '../../assets/imgTrizProfile.jpg'
-import ImgCalangoProfile from '../../assets/imgCalangoProfile.jpg'
-import ImgClairoProfile from '../../assets/imgClairoProfile.jpg'
+import ImgTrizProfile from '../../assets/ImgTrizProfile.jpg'
+import ImgCalangoProfile from '../../assets/ImgCalangoProfile.jpg'
+import ImgClairoProfile from '../../assets/ImgClairoProfile.jpg'
 import ImgLenProfile from '../../assets/ImgLenProfile.jpg'
 import ImgGirlProfile from '../../assets/ImgGirlProfile.jpg'
 
