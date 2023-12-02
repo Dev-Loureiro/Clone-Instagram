@@ -11,6 +11,7 @@ import { BsList } from "react-icons/bs";
 import "./style.css";
 import "../../style/global.css";
 import LogoEscrito from "../../assets/Instagram_logo.png";
+import { FaInstagram } from "react-icons/fa6";
 import { IconContext } from "react-icons";
 import Logo from "./Logo";
 
@@ -18,7 +19,10 @@ export default function LeftContent() {
   return (
     <div className="LeftContent">
       <div className="MenuLogo" id="logo">
-        <Logo urlImg={LogoEscrito} />
+        <Logo
+          urlImg={LogoEscrito}
+        />
+        <FaInstagram />
       </div>
 
       <div className="box-menu">
@@ -38,7 +42,7 @@ export default function LeftContent() {
               icon={
                 <img
                   className="Profile"
-                  src="../src/assets/WhatsApp Image 2023-09-06 at 17.42.32.jpeg"
+                  src="../src/assets/jp_loureiro.png"
                   alt=""
                 />
               }

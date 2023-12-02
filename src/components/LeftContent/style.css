@@ -50,6 +50,7 @@
   width: 26px;
   height: 26px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .espacamentoNavMenu {
@@ -59,6 +60,17 @@
 .MenuLogo {
   padding: 25px 12px 16px 12px;
   margin-bottom: 19px;
+}
+
+.MenuLogo img {
+  display: block;
+}
+
+.MenuLogo svg {
+  display: none;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
 }
 
 .MenuLogo img {
@@ -75,14 +87,15 @@
 }
 
 @media (max-width: 1350px) {
-  .MenuLogo {
-    content: "";
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-image: url("../../assets/icons8-instagram-24.png");
-    background-size: cover;
+
+  .MenuLogo img {
+    display: none;
   }
+  
+  .MenuLogo svg {
+    display: block;
+  }
+  
 
   #logo img {
     display: none;
