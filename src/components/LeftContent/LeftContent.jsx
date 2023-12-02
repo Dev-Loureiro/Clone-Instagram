@@ -10,7 +10,7 @@ import { BsList } from "react-icons/bs";
 
 import "./style.css";
 import "../../style/global.css";
-import LogoEscrito from "../../assets/instagram_logo.png";
+import LogoEscrito from "../../assets/Instagram_logo.png";
 import { IconContext } from "react-icons";
 import Logo from "./Logo";
 
