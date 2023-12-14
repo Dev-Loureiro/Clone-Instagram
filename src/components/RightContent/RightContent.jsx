@@ -1,6 +1,6 @@
 
 import SugestionCard from './SugestionCard';
-import ImgJpProfile from '../../assets/jp_loureiro.png'
+import ImgJpProfile from '../../assets/jp_loureiro.jpeg'
 
 import ImgTrizProfile from '../../assets/ImgTrizProfile.jpg'
 import ImgCalangoProfile from '../../assets/ImgCalangoProfile.jpg'

@@ -73,6 +73,24 @@
   cursor: pointer;
 }
 
+.imgprofile img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.imgprofile {
+  display: flex;
+  font-size: 16px;
+}
+
+.imgprofile p {
+  font-size: 16px;
+  padding-left: 16px;
+}
+
+
 .MenuLogo img {
   width: 103px;
   cursor: pointer;
@@ -81,6 +99,8 @@
 .Menu img {
   object-fit: cover;
 }
+
+ 
 
 .LeftContent .more {
   list-style: none;
@@ -94,6 +114,10 @@
   
   .MenuLogo svg {
     display: block;
+  }
+  
+  .imgprofile p {
+    display: none;
   }
   
 

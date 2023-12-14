@@ -10,6 +10,7 @@ import { BsList } from "react-icons/bs";
 
 import "./style.css";
 import "../../style/global.css";
+import ImgJpProfile from '../../assets/jp_loureiro.jpeg'
 import LogoEscrito from "../../assets/Instagram_logo.png";
 import { FaInstagram } from "react-icons/fa6";
 import { IconContext } from "react-icons";
@@ -38,16 +39,12 @@ export default function LeftContent() {
               <MenuItem icon={<FiPlusSquare />} text="Create" />
             </IconContext.Provider>
 
-            <MenuItem
-              icon={
-                <img
-                  className="Profile"
-                  src="src\assets\jp_loureiro.png"
-                  alt="profile-img"
-                />
-              }
-              text="Profile"
-            />
+            <li className="imgprofile">
+             <img src={ImgJpProfile} alt="imgprofile" />
+             <p>Profile</p>
+             </li>
+
+
           </ul>
         </div>
 
